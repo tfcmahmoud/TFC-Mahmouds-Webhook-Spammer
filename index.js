@@ -32,3 +32,12 @@ for( let i = 1; i < threads;  i++) {
 	avatarURL: wavatar
  }).then(console.log(chalk.green`Sent ${i}`))
 };
+
+
+var stdin = process.openStdin();
+
+console.log('Press any key to stop:');
+
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));

@@ -2,6 +2,8 @@
 Node Js: https://nodejs.org/dist/v14.17.0/node-v14.17.0-x86.msi
 
 # How To Setup📐
+Run The Install Folder
+
 Go To The config.json Folder And Go To The Webhook Token And Id And See You Webhook https://discord.com/api/webhooks/webhookid/webhooktoken
 
 Then Go To The Threads And Put How Many Times You Want For The Webhook To Get Spammed

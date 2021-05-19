@@ -26,7 +26,7 @@ console.log(
 );
 
 
-for( let i = 1; i < threads;  i++) {
+for( let i = 0; i < threads;  i++) {
  WebhookClient.send(wmessage, {
 	username:  wname,
 	avatarURL: wavatar

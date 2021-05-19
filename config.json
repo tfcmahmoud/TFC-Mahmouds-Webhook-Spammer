@@ -1,0 +1,8 @@
+{
+    "webhookid": "webhook id",
+    "webhooktoken": "webhook token",
+    "threads": "threads",
+    "wmessage": "message",
+    "wavatar": "avatar link",
+    "wname": "webhook name"
+}
